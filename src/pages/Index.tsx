@@ -10,13 +10,13 @@ const Index = () => {
 
   const vipTiers = [
     {
-      name: 'VIP',
-      price: '299₽',
+      name: 'Venom',
+      price: '59₽',
       color: 'bg-green-600',
       textColor: 'text-green-400',
       features: [
-        'Префикс [VIP] в чате',
-        'Доступ к /kit vip',
+        'Префикс [Venom] в чате',
+        'Доступ к /kit venom',
         '2 дома (/sethome)',
         'Цветной ник',
         'Приоритет входа на сервер'
@@ -24,14 +24,14 @@ const Index = () => {
       icon: 'Gem'
     },
     {
-      name: 'VIP+',
-      price: '499₽',
+      name: 'AntiVenom',
+      price: '129₽',
       color: 'bg-blue-600',
       textColor: 'text-blue-400',
       features: [
-        'Всё из VIP',
-        'Префикс [VIP+] в чате',
-        'Доступ к /kit vipplus',
+        'Всё из Venom',
+        'Префикс [AntiVenom] в чате',
+        'Доступ к /kit antivenom',
         '5 домов (/sethome)',
         'Команда /fly',
         'Больше слотов в аукционе'
@@ -39,14 +39,14 @@ const Index = () => {
       icon: 'Crown'
     },
     {
-      name: 'Premium',
-      price: '999₽',
+      name: 'Toxin',
+      price: '209₽',
       color: 'bg-purple-600',
       textColor: 'text-purple-400',
       features: [
-        'Всё из VIP+',
-        'Префикс [Premium] в чате',
-        'Доступ к /kit premium',
+        'Всё из AntiVenom',
+        'Префикс [Toxin] в чате',
+        'Доступ к /kit toxin',
         '10 домов (/sethome)',
         'Команда /heal и /feed',
         'Приватные варпы',
@@ -55,14 +55,14 @@ const Index = () => {
       icon: 'Trophy'
     },
     {
-      name: 'Legend',
-      price: '1999₽',
+      name: 'Fag',
+      price: '309₽',
       color: 'bg-yellow-600',
       textColor: 'text-yellow-400',
       features: [
-        'Всё из Premium',
-        'Префикс [Legend] в чате',
-        'Доступ к /kit legend',
+        'Всё из Toxin',
+        'Префикс [Fag] в чате',
+        'Доступ к /kit fag',
         'Неограниченно домов',
         'Команда /god',
         'Личный варп сервер',
@@ -70,6 +70,23 @@ const Index = () => {
         'Доступ в закрытую зону'
       ],
       icon: 'Sword'
+    },
+    {
+      name: 'Carnage',
+      price: '409₽',
+      color: 'bg-red-600',
+      textColor: 'text-red-400',
+      features: [
+        'Всё из Fag',
+        'Префикс [Carnage] в чате',
+        'Доступ к /kit carnage',
+        'Персональный мир',
+        'Команда /vanish',
+        'Эксклюзивные скины',
+        'VIP зона с ресурсами',
+        'Особые эффекты и анимации'
+      ],
+      icon: 'Flame'
     }
   ];
 
@@ -233,7 +250,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
               {vipTiers.map((tier, index) => (
                 <Card
                   key={index}
