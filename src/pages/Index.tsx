@@ -200,35 +200,86 @@ const Index = () => {
               </Card>
             </section>
 
-            <section className="grid md:grid-cols-3 gap-6">
-              <Card className="border-4 border-[#8B4513] bg-[#3a5a2a]/90 hover:scale-105 transition-transform">
-                <CardHeader>
-                  <Icon name="Pickaxe" className="text-yellow-400 mb-2" size={48} />
-                  <CardTitle className="pixel-font text-yellow-400">Выживание</CardTitle>
-                  <CardDescription className="text-green-300">
-                    Классический режим выживания с друзьями
+            <section className="mb-12">
+              <Card className="border-4 border-red-600 bg-[#2d1a1a]/95 backdrop-blur">
+                <CardHeader className="text-center">
+                  <Icon name="Skull" className="mx-auto text-red-400 mb-4" size={64} />
+                  <CardTitle className="pixel-font text-3xl text-red-400 mb-4">
+                    ЧТО ТАКОЕ АНАРХИЯ?
+                  </CardTitle>
+                  <CardDescription className="text-lg text-red-200">
+                    Добро пожаловать в мир без правил и ограничений
                   </CardDescription>
                 </CardHeader>
-              </Card>
-
-              <Card className="border-4 border-[#8B4513] bg-[#3a5a2a]/90 hover:scale-105 transition-transform">
-                <CardHeader>
-                  <Icon name="ShoppingBag" className="text-blue-400 mb-2" size={48} />
-                  <CardTitle className="pixel-font text-yellow-400">Экономика</CardTitle>
-                  <CardDescription className="text-green-300">
-                    Развитая торговая система и аукцион
-                  </CardDescription>
-                </CardHeader>
-              </Card>
-
-              <Card className="border-4 border-[#8B4513] bg-[#3a5a2a]/90 hover:scale-105 transition-transform">
-                <CardHeader>
-                  <Icon name="Shield" className="text-red-400 mb-2" size={48} />
-                  <CardTitle className="pixel-font text-yellow-400">Приват</CardTitle>
-                  <CardDescription className="text-green-300">
-                    Защити свою территорию от гриферов
-                  </CardDescription>
-                </CardHeader>
+                <CardContent>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="space-y-4">
+                      <div className="bg-red-900/30 border-2 border-red-600 p-4">
+                        <h3 className="pixel-font text-yellow-400 mb-3 flex items-center gap-2">
+                          <Icon name="Flame" size={24} />
+                          Полная свобода действий
+                        </h3>
+                        <p className="text-green-200">
+                          Никаких правил, никаких ограничений. Строй, разрушай, грабь — всё зависит только от тебя и твоих союзников.
+                        </p>
+                      </div>
+                      <div className="bg-red-900/30 border-2 border-red-600 p-4">
+                        <h3 className="pixel-font text-yellow-400 mb-3 flex items-center gap-2">
+                          <Icon name="Swords" size={24} />
+                          PvP без границ
+                        </h3>
+                        <p className="text-green-200">
+                          Сражайся с кем угодно, где угодно и когда угодно. Выживает сильнейший — таков закон анархии.
+                        </p>
+                      </div>
+                      <div className="bg-red-900/30 border-2 border-red-600 p-4">
+                        <h3 className="pixel-font text-yellow-400 mb-3 flex items-center gap-2">
+                          <Icon name="Users" size={24} />
+                          Кланы и альянсы
+                        </h3>
+                        <p className="text-green-200">
+                          Объединяйся с друзьями, создавай могущественные кланы или оставайся одиночкой. Выбор за тобой.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="space-y-4">
+                      <div className="bg-red-900/30 border-2 border-red-600 p-4">
+                        <h3 className="pixel-font text-yellow-400 mb-3 flex items-center gap-2">
+                          <Icon name="Bomb" size={24} />
+                          Гриф разрешён
+                        </h3>
+                        <p className="text-green-200">
+                          Нет защиты территорий. Твой дом — твоя крепость, только если ты сможешь его защитить.
+                        </p>
+                      </div>
+                      <div className="bg-red-900/30 border-2 border-red-600 p-4">
+                        <h3 className="pixel-font text-yellow-400 mb-3 flex items-center gap-2">
+                          <Icon name="MapPin" size={24} />
+                          Огромный мир
+                        </h3>
+                        <p className="text-green-200">
+                          Исследуй бесконечные территории, ищи заброшенные базы, находи спрятанные сокровища других игроков.
+                        </p>
+                      </div>
+                      <div className="bg-red-900/30 border-2 border-red-600 p-4">
+                        <h3 className="pixel-font text-yellow-400 mb-3 flex items-center gap-2">
+                          <Icon name="Trophy" size={24} />
+                          Твоя легенда
+                        </h3>
+                        <p className="text-green-200">
+                          Стань известным воином, торговцем или строителем. Твоя репутация — твоё главное оружие.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mt-6 bg-yellow-900/30 border-2 border-yellow-600 p-6 text-center">
+                    <Icon name="AlertTriangle" className="mx-auto mb-3 text-yellow-400" size={48} />
+                    <p className="text-yellow-200 text-lg">
+                      <span className="pixel-font text-yellow-400">ВНИМАНИЕ:</span> Это настоящая анархия. 
+                      Здесь нет администрации, которая будет решать твои проблемы. Доверяй только себе!
+                    </p>
+                  </div>
+                </CardContent>
               </Card>
             </section>
           </div>
