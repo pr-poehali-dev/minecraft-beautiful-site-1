@@ -162,7 +162,7 @@ const Index = () => {
                   ДОБРО ПОЖАЛОВАТЬ!
                 </h2>
                 <p className="text-xl md:text-2xl text-green-300 mb-8">
-                  Лучший сервер для выживания и приключений
+                  Лучший сервер анархии без правил
                 </p>
               </div>
 
@@ -179,21 +179,16 @@ const Index = () => {
                       play.server.net
                     </p>
                   </div>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div className="bg-green-800/50 p-4 border-2 border-green-600">
-                      <Icon name="Users" className="mx-auto mb-2 text-green-400" size={32} />
-                      <p className="text-green-300 text-sm">Онлайн</p>
-                      <p className="pixel-font text-xl text-yellow-400">247/500</p>
-                    </div>
+                  <div className="grid grid-cols-3 gap-4 max-w-xl mx-auto">
                     <div className="bg-blue-800/50 p-4 border-2 border-blue-600">
                       <Icon name="Globe" className="mx-auto mb-2 text-blue-400" size={32} />
                       <p className="text-blue-300 text-sm">Версия</p>
-                      <p className="pixel-font text-xl text-yellow-400">1.20.4</p>
+                      <p className="pixel-font text-xl text-yellow-400">1.16.5</p>
                     </div>
-                    <div className="bg-purple-800/50 p-4 border-2 border-purple-600">
-                      <Icon name="Zap" className="mx-auto mb-2 text-purple-400" size={32} />
-                      <p className="text-purple-300 text-sm">Режим</p>
-                      <p className="pixel-font text-lg text-yellow-400">Survival</p>
+                    <div className="bg-red-800/50 p-4 border-2 border-red-600">
+                      <Icon name="Skull" className="mx-auto mb-2 text-red-400" size={32} />
+                      <p className="text-red-300 text-sm">Режим</p>
+                      <p className="pixel-font text-lg text-yellow-400">Анархия</p>
                     </div>
                     <div className="bg-orange-800/50 p-4 border-2 border-orange-600">
                       <Icon name="Clock" className="mx-auto mb-2 text-orange-400" size={32} />
